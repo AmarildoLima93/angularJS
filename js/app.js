@@ -20,7 +20,7 @@ var appModule = function($routeProvider,$locationProvider) {
 			templateUrl: 'template/contact.html',
 			controller: 'contactCtrl'
 		})
-		.otherwise({redirectTo:'/'});
+		.otherwise('/');
 }
 
 

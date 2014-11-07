@@ -281,7 +281,7 @@ var appModule = function($routeProvider,$locationProvider) {
 			templateUrl: 'template/contact.html',
 			controller: 'contactCtrl'
 		})
-		.otherwise({redirectTo:'/'});
+		.otherwise('/');
 }
 
 
@@ -299,19 +299,20 @@ var indexCtrl = function($scope) {
 
 // Controller da home
 var homeCtrl = function($scope) {
-	//$scope.page = ''
+	$scope.page = 'Home Page';
+
+	$scope.names = [{name:'Nome1',sobrenome:'Sobrenome1'},{name:'Nome2',sobrenome:'Sobrenome2'},{name:'Nome3',sobrenome:'Sobrenome3'}]
 }
 
 // Controller da página about
 var aboutCtrl = function($scope) {
-	//$scope.page = 'Página ABOUT'
+	$scope.page = 'About Page';
 }
 
 // Controller da página contato
 var contactCtrl = function($scope) {
-	//$scope.page = 'Página CONTACT'
+	$scope.page = 'Contact Page';
 }
-
 
 // Declaração dos controllers
 appStore
@@ -327,5 +328,4 @@ appStore
 	//.filte;'use strict';
 
 //appStore
-	//.factory('lalal',lala)
-	
+	//.factory('',)

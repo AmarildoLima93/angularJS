@@ -12,8 +12,6 @@ ng\:form {
   display: block;
 }
 
-.content .jumbotron {
-	background-color: transparent;
-	padding: 1px;
-	text-align: center;
+.container .page-header {
+	margin: -10px 0 25px 0;
 }
