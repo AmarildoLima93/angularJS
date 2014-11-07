@@ -1,4 +1,4 @@
 angularJS
 =========
 
-Exemplos de angular
+Exemplos de angular com single page
